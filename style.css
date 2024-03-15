@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(186, 237, 225);
+}
+
+div[data-testid="stHorizontalBlock"]>div:nth-child(2) {
+    background-color: #9400fd5f;
+    border-color: #60f3586f;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 2rex;
+}
+
+div[data-testid="stHorizontalBlock"]>div:first-of-type {
+    background-color: #60f3586f;
+    border-color: #9400fd5f;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 2rex;
+}
