@@ -41,7 +41,6 @@ def get_pokemon_details(pokemon_name):
         image_url = pokemon_data['sprites']['other']['official-artwork']['front_default']
         cry = pokemon_data['cries']['latest']
         cry_legacy = pokemon_data['cries']['legacy']
-        #sprites = pokemon_data['sprites']
 
         return name, height, weight, moves, image_url, cry, cry_legacy
     except:
