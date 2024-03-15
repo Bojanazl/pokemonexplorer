@@ -137,12 +137,12 @@ with comparison:
         #height of a pokemon
         axs[0].bar([first_pokemon.capitalize(), second_pokemon.capitalize()], [height_1, height_2], color=height_colours)
         axs[0].set_title("Height Comparison")
-        axs[0].set_ylabel("Height")
+        axs[0].set_ylabel("Height in dm")
 
         #weight of a pokemon
         axs[1].bar([first_pokemon.capitalize(), second_pokemon.capitalize()], [weight_1, weight_2], color=weight_colours)
         axs[1].set_title("Weight Comparison")
-        axs[1].set_ylabel("Weight")
+        axs[1].set_ylabel("Weight in kg")
 
         st.pyplot(fig)
 
