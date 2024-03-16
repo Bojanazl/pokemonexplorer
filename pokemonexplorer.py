@@ -112,13 +112,13 @@ with comparison:
     with col1:
         #this should be in a different file :(
             st.write(f"**Name:** {name.capitalize()}")
-            st.write(f"Number of moves for: {moves_1}")
+            st.write(f"**Number of moves**: {moves_1}")
             if image_url_2:
                 st.image(image_url_1, caption= first_pokemon.capitalize(), use_column_width=True, width = 100)
     #column 2
     with col2:
             st.write(f"**Name:** {name_2.capitalize()}")
-            st.write(f"**Number of moves for**: {moves_2}")
+            st.write(f"**Number of moves**: {moves_2}")
             if image_url_2:
                 st.image(image_url_2, caption= second_pokemon.capitalize(), use_column_width=True, width = 100)
 
